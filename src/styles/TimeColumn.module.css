@@ -1,0 +1,20 @@
+.columnContainer{
+    width: 60px;
+    border-right: 1px solid #e5e7eb;
+    background-color: #ffffff;
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    flex-shrink: 0;
+}
+
+.hourCell{
+    height: 60px;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 8px 0 0;
+    font-size: 12px;
+    color: #374151;
+    text-align: right;
+}
